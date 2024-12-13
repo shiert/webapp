@@ -18,7 +18,7 @@ const onClickLeft = () => history.back();
 .service-page {
   min-height: 100%;
   background: #f7f8fa;
-  
+
   .content {
     padding: 16px;
   }

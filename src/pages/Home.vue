@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="title">
-      贵州习水人事招生系统
+      {{ systemName }}
     </div>
     <div class="container">
       <div class="list-item" v-for="(item, index) in menuList" :key="index">
@@ -24,6 +24,7 @@
 import icon from '@/assets/images/icons/icon.png'
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import { systemName } from '@/config'
 
 const router = useRouter()
 
